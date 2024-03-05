@@ -8,6 +8,7 @@ import essie.plushed.blocks.cuddlyblocks.CuddlyFoxBlock;
 import essie.plushed.blocks.cuddlyblocks.CuddlyOctoBlock;
 import essie.plushed.blocks.cuddlyblocks.CuddlyStinkyBottleBoyBlock;
 import essie.plushed.mixinreplacement.AllayEventListener;
+import net.minecraft.client.renderer.block.BlockRenderDispatcher;
 import net.minecraft.core.Registry;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -67,6 +68,9 @@ public class Plushed
 	public static void init() {
 		BLOCKS.register();
 		BLOCK_ENTITIES.register();
+
+		
+
 		ITEMS.register();
 
 		AllayEventListener.onEntityInteract();

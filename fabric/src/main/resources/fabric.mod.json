@@ -15,6 +15,9 @@
   "entrypoints": {
     "main": [
       "essie.plushed.fabric.PlushedFabric"
+    ],
+    "client": [
+      "essie.plushed.fabric.PlushedFabricClient"
     ]
   },
   "mixins": [
