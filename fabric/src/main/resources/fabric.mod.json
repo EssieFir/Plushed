@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "plushed",
+  "version": "${version}",
+
+  "name": "Plushed",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "Unlicense",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "essie.plushed.fabric.PlushedFabric"
+    ]
+  },
+  "mixins": [
+    "plushed.mixins.json",
+    "plushed-common.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.7",
+    "minecraft": ">=1.19.2"
+  }
+}
