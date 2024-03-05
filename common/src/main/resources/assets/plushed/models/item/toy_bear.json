@@ -3,8 +3,8 @@
   "ambientocclusion": false,
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "plushed:toy_bear",
-		"particle": "plushed:toy_bear"
+		"0": "plushed:block/toy_bear",
+		"particle": "plushed:block/toy_bear"
 	},
 	"elements": [
 		{

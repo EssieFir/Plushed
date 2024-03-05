@@ -3,8 +3,8 @@
 	"ambientocclusion": false,
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "plushed:octo_plush_blue",
-		"particle": "plushed:octo_plush_blue"
+		"0": "plushed:block/octo_plush_blue",
+		"particle": "plushed:block/octo_plush_blue"
 	},
 	"elements": [
 		{

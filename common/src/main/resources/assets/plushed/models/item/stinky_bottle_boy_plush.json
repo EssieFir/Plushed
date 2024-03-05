@@ -3,7 +3,8 @@
 	"ambientocclusion": false,
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "plushed:stinky_bottle_boy_plush"
+		"1": "plushed:block/stinky_bottle_boy_plush",
+		"particle": "plushed:block/stinky_bottle_boy_plush"
 	},
 	"elements": [
 		{

@@ -1,39 +1,19 @@
 {
-  "multipart": [
-    {
-      "apply": {
-        "model": "plushed:block/fox_plush"
-      },
-      "when": {
-        "facing": "north"
-      }
+  "variants": {
+    "facing=east": {
+      "model": "plushed:block/fox_plush",
+      "y": 90
     },
-    {
-      "apply": {
-        "model": "plushed:block/fox_plush",
-        "y": 180
-      },
-      "when": {
-        "facing": "south"
-      }
+    "facing=north": {
+      "model": "plushed:block/fox_plush"
     },
-    {
-      "apply": {
-        "model": "plushed:block/fox_plush",
-        "y": 270
-      },
-      "when": {
-        "facing": "west"
-      }
+    "facing=south": {
+      "model": "plushed:block/fox_plush",
+      "y": 180
     },
-    {
-      "apply": {
-        "model": "plushed:block/fox_plush",
-        "y": 90
-      },
-      "when": {
-        "facing": "east"
-      }
+    "facing=west": {
+      "model": "plushed:block/fox_plush",
+      "y": 270
     }
-  ]
+  }
 }

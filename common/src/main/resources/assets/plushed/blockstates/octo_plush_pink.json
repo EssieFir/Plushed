@@ -1,39 +1,19 @@
 {
-  "multipart": [
-    {
-      "apply": {
-        "model": "plushed:block/octo_plush_pink"
-      },
-      "when": {
-        "facing": "north"
-      }
+  "variants": {
+    "facing=east": {
+      "model": "plushed:block/octo_plush_pink",
+      "y": 90
     },
-    {
-      "apply": {
-        "model": "plushed:block/octo_plush_pink",
-        "y": 180
-      },
-      "when": {
-        "facing": "south"
-      }
+    "facing=north": {
+      "model": "plushed:block/octo_plush_pink"
     },
-    {
-      "apply": {
-        "model": "plushed:block/octo_plush_pink",
-        "y": 270
-      },
-      "when": {
-        "facing": "west"
-      }
+    "facing=south": {
+      "model": "plushed:block/octo_plush_pink",
+      "y": 180
     },
-    {
-      "apply": {
-        "model": "plushed:block/octo_plush_pink",
-        "y": 90
-      },
-      "when": {
-        "facing": "east"
-      }
+    "facing=west": {
+      "model": "plushed:block/octo_plush_pink",
+      "y": 270
     }
-  ]
+  }
 }

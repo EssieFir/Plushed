@@ -1,39 +1,19 @@
 {
-  "multipart": [
-    {
-      "apply": {
-        "model": "plushed:block/toy_bear"
-      },
-      "when": {
-        "facing": "north"
-      }
+  "variants": {
+    "facing=east": {
+      "model": "plushed:block/toy_bear",
+      "y": 90
     },
-    {
-      "apply": {
-        "model": "plushed:block/toy_bear",
-        "y": 180
-      },
-      "when": {
-        "facing": "south"
-      }
+    "facing=north": {
+      "model": "plushed:block/toy_bear"
     },
-    {
-      "apply": {
-        "model": "plushed:block/toy_bear",
-        "y": 270
-      },
-      "when": {
-        "facing": "west"
-      }
+    "facing=south": {
+      "model": "plushed:block/toy_bear",
+      "y": 180
     },
-    {
-      "apply": {
-        "model": "plushed:block/toy_bear",
-        "y": 90
-      },
-      "when": {
-        "facing": "east"
-      }
+    "facing=west": {
+      "model": "plushed:block/toy_bear",
+      "y": 270
     }
-  ]
+  }
 }
