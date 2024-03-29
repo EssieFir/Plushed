@@ -17,10 +17,11 @@ public class AllayEventListener {
 			if (entity instanceof Allay && player.getItemInHand(hand).getItem() instanceof CuddlyItem) {
 				if (player instanceof LocalPlayer localPlayer) {
 					localPlayer.sendSystemMessage(Component.translatable("response.plushed.give_away"));
+					return EventResult.interruptTrue();
 				}
 			}
 
-			return EventResult.interruptTrue();
+			return EventResult.pass();
 		});
 	}
 }
